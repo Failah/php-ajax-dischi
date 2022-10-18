@@ -29,6 +29,7 @@ body {
     text-align: center;
     background-color: grey;
     color: black;
+    min-height: 365px;
 }
 
 .card img {

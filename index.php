@@ -39,7 +39,6 @@
             foreach ($database as $album) {
             ?>
                 <div>
-
                     <?php
                     include __DIR__ . '/card.php';
                     ?>
