@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* contents */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.album-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.album-container>* {
+    width: calc(20%);
+}
+
+.card {
+    text-align: center;
+    background-color: grey;
+    color: black;
+}
+
+.card img {
+    width: 100%;
+}
