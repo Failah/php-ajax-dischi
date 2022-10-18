@@ -17,7 +17,7 @@
         $filter = strtolower($_GET['filter']);
         $data = [];
         foreach ($database as $album) {
-            if (strlen($filter) === 0 || strtolower($album['genre'] == $filter)) {
+            if (strlen($filter) === 0 || strtolower($album['genre'] === $filter)) {
                 $data[] = $album;
             }
         }
